@@ -1,3 +1,11 @@
+      ******************************************************************
+      * This application was written by Juan Jose Torres
+      * and is protected under copyrigth and trademarks.
+      * Licensed under MIT to be public at github for demostration 
+      * purposes.
+      * Winner Financial (r) - 1997-2003                  *
+      
+      ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROG005.
       ******************************************************************
@@ -75,12 +83,12 @@
 
        I-LABEL-ARCHIVOS.
                MOVE WIN-EMPRESA            TO  WK-COMPANIA
-               MOVE "น"                    TO  WK-RAYAS-U
-               MOVE "ฬ"                    TO  WK-RAYAS-P
-               MOVE "ถ"                    TO  WK-RAYA-U
-               MOVE "ว"                    TO  WK-RAYA-P.
+               MOVE "๏ฟฝ"                    TO  WK-RAYAS-U
+               MOVE "๏ฟฝ"                    TO  WK-RAYAS-P
+               MOVE "๏ฟฝ"                    TO  WK-RAYA-U
+               MOVE "๏ฟฝ"                    TO  WK-RAYA-P.
                MOVE 16                     TO  POS-DOWN.
-               MOVE "WINNER FINANCIALฉ"    TO  WK-SISTEMA.
+               MOVE "WINNER FINANCIAL๏ฟฝ"    TO  WK-SISTEMA.
                MOVE "  USER SISTEM    "    TO  TIT-APLICACION.
        F-LABEL-ARCHIVOS.
 
@@ -484,23 +492,23 @@
        I-HELP-MODULOS.
            MOVE COD-PRG TO COD-MODPRG.
            READ MODULPRG WITH NO LOCK INVALID KEY GO F-HELP-MODULOS.
-           DISPLAY "ษออออออออออออออออออออออออออออออออออออออออออป"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
                                         LINE 06 POSITION 20 REVERSE.
-           DISPLAY "บ            P R O C E S S                 บ"
+           DISPLAY "๏ฟฝ            P R O C E S S                 ๏ฟฝ"
                                         LINE 07 POSITION 20 REVERSE.
-           DISPLAY "ฬออออออออออออออออออออออออออออออออออออออออออน"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"
                                         LINE 08 POSITION 20 REVERSE.
-           DISPLAY "บณ 1                 ณ  6                 ณบ"
+           DISPLAY "๏ฟฝ๏ฟฝ 1                 ๏ฟฝ  6                 ๏ฟฝ๏ฟฝ"
                                         LINE 09 POSITION 20 REVERSE.
-           DISPLAY "บณ 2                 ณ  7                 ณบ"
+           DISPLAY "๏ฟฝ๏ฟฝ 2                 ๏ฟฝ  7                 ๏ฟฝ๏ฟฝ"
                                         LINE 10 POSITION 20 REVERSE.
-           DISPLAY "บณ 3                 ณ  8                 ณบ"
+           DISPLAY "๏ฟฝ๏ฟฝ 3                 ๏ฟฝ  8                 ๏ฟฝ๏ฟฝ"
                                         LINE 11 POSITION 20 REVERSE.
-           DISPLAY "บณ 4                 ณ  9                 ณบ"
+           DISPLAY "๏ฟฝ๏ฟฝ 4                 ๏ฟฝ  9                 ๏ฟฝ๏ฟฝ"
                                         LINE 12 POSITION 20 REVERSE.
-           DISPLAY "บณ 5                 ณ 10                 ณบ"
+           DISPLAY "๏ฟฝ๏ฟฝ 5                 ๏ฟฝ 10                 ๏ฟฝ๏ฟฝ"
                                         LINE 13 POSITION 20 REVERSE.
-           DISPLAY "ศออออออออออออออออออออออออออออออออออออออออออผ"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"
                                         LINE 14 POSITION 20 REVERSE.
            PERFORM I-MUESTRA-MODULOS THRU F-MUESTRA-MODULOS.
        F-HELP-MODULOS.
@@ -563,37 +571,37 @@
            PERFORM I-PANTA THRU F-PANTA.
            MOVE SG-COLOR-TABLE(8) TO SG-FCOLOR.
            MOVE SG-COLOR-TABLE(6) TO SG-BCOLOR.
-           DISPLAY "ษอออออออออออออออออออออออออออออออออออออออออออออออออออ
-      -    "ออออออออออออออออป"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
                                     LINE 07 POSITION 06
                                           CONTROL SG-CONTROL-STRING.
-           DISPLAY "บ                          UPDATE USER SYSTEM
-      -    "                บ"
+           DISPLAY "๏ฟฝ                          UPDATE USER SYSTEM
+      -    "                ๏ฟฝ"
                                     LINE 08 POSITION 06
-           DISPLAY "ฬอออออออออออออออออออออออออออออออออออออออออออออออออออ
-      -    "ออออออออออออออออน"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"
                                     LINE 09 POSITION 06
-           DISPLAY "บ User     :  ___     Key   : ________     Type :  _
-      -    "                บ"
+           DISPLAY "๏ฟฝ User     :  ___     Key   : ________     Type :  _
+      -    "                ๏ฟฝ"
                                     LINE 10 POSITION 06
-           DISPLAY "บ Name     :
-      -    "                บ"
+           DISPLAY "๏ฟฝ Name     :
+      -    "                ๏ฟฝ"
                                     LINE 11 POSITION 06
-           DISPLAY "ศอออออออออออออออออออออออออออออออออออออออออออออออออออ
-      -    "ออออออออออออออออผ"
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"
                                     LINE 12 POSITION 06
-           DISPLAY "ษออออออออออหออออออออออออออออออออออออออออออออหอออออออ
-      -    "ออออออหออออออออออออป"   LINE 15 POSITION 05
-           DISPLAY "บ          บ                                บ  Proce
-      -    "ss    บ  Modules   บ"   LINE 16 POSITION 05
-           DISPLAY "บ Program  บ       Description              บ X a m
-      -    "c d p บ 1234567890 บ"   LINE 17 POSITION 05
-           DISPLAY "ฬออออออออออฮออออออออออออออออออออออออออออออออฮอออออออ
-      -    "ออออออฮออออออออออออน"   LINE 18 POSITION 05 .
-           DISPLAY "บ          บ                                บ
-      -    "      บ            บ"   LINE 19 POSITION 05 .
-           DISPLAY "ศออออออออออสออออออออออออออออออออออออออออออออสอออออออ
-      -    "ออออออสออออออออออออผ" LINE 20 POSITION 05   .
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"   LINE 15 POSITION 05
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                ๏ฟฝ  Proce
+      -    "ss    ๏ฟฝ  Modules   ๏ฟฝ"   LINE 16 POSITION 05
+           DISPLAY "๏ฟฝ Program  ๏ฟฝ       Description              ๏ฟฝ X a m
+      -    "c d p ๏ฟฝ 1234567890 ๏ฟฝ"   LINE 17 POSITION 05
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"   LINE 18 POSITION 05 .
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                ๏ฟฝ
+      -    "      ๏ฟฝ            ๏ฟฝ"   LINE 19 POSITION 05 .
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ" LINE 20 POSITION 05   .
        F-WINDOW-DATOS.
       *
        I-DISPLAY-OPCION.
@@ -641,7 +649,7 @@
            DISPLAY " " LINE 24 POSITION 80
            CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [ G ]  GRABAR REGISTRO     [  ]  CONTINUA        บ"
+           "๏ฟฝ       [ G ]  GRABAR REGISTRO     [  ]  CONTINUA        ๏ฟฝ"
                          LINE 24 POSITION 10 LOW.
            PERFORM ACEPTA-TRUCO.
            IF W-TRUCO = "G"
@@ -656,7 +664,7 @@
            DISPLAY " " LINE 24 POSITION 80
            CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [ G ]  GRABAR REGISTRO     [  ]  CONTINUA        บ"
+           "๏ฟฝ       [ G ]  GRABAR REGISTRO     [  ]  CONTINUA        ๏ฟฝ"
                             LINE 24 POSITION 10 LOW    .
            PERFORM ACEPTA-TRUCO.
            IF W-TRUCO = "G"
@@ -689,7 +697,7 @@
            DISPLAY " " LINE 24 POSITION 80
            CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [ E ]  BORRA  REGISTRO     [  ]  CONTINUA        บ"
+           "๏ฟฝ       [ E ]  BORRA  REGISTRO     [  ]  CONTINUA        ๏ฟฝ"
                         LINE 24 POSITION 10 LOW.
            PERFORM ACEPTA-TRUCO.
            IF W-TRUCO = "E"
@@ -734,23 +742,23 @@
        I-WINDOW-USER.
            MOVE SG-COLOR-TABLE(3) TO SG-FCOLOR.
            MOVE SG-COLOR-TABLE(1) TO SG-BCOLOR.
-           DISPLAY  "ษออออออหอออออออออออออออออออออออออออออออออออออป"
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
             LINE 12 POSITION 34 CONTROL SG-CONTROL-STRING REVERSE.
-           DISPLAY  "บ COD. บ           USUARIO                   บ"
+           DISPLAY  "๏ฟฝ COD. ๏ฟฝ           USUARIO                   ๏ฟฝ"
             LINE 13 POSITION 34 REVERSE.
-           DISPLAY  "ฬออออออฮอออออออออออออออออออออออออออออออออออออน"
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"
             LINE 14 POSITION 34 REVERSE.
-           DISPLAY  "บ      บ                                     บ"
+           DISPLAY  "๏ฟฝ      ๏ฟฝ                                     ๏ฟฝ"
             LINE 15 POSITION 34 REVERSE.
-           DISPLAY  "บ      บ                                     บ"
+           DISPLAY  "๏ฟฝ      ๏ฟฝ                                     ๏ฟฝ"
             LINE 16 POSITION 34 REVERSE.
-           DISPLAY  "บ      บ                                     บ"
+           DISPLAY  "๏ฟฝ      ๏ฟฝ                                     ๏ฟฝ"
             LINE 17 POSITION 34 REVERSE.
-           DISPLAY  "บ      บ                                     บ"
+           DISPLAY  "๏ฟฝ      ๏ฟฝ                                     ๏ฟฝ"
             LINE 18 POSITION 34 REVERSE.
-           DISPLAY  "บ      บ                                    บ"
+           DISPLAY  "๏ฟฝ      ๏ฟฝ                                    ๏ฟฝ"
             LINE 19 POSITION 34 REVERSE.
-           DISPLAY  "ศออออออสอออออออออออออออออออออออออออออออออออออผ"
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"
             LINE 20 POSITION 34 REVERSE.
        F-WINDOW-USER. EXIT.
       *
@@ -992,23 +1000,23 @@
        I-WINDOW-PRG.
            MOVE SG-COLOR-TABLE(3) TO SG-FCOLOR.
            MOVE SG-COLOR-TABLE(1) TO SG-BCOLOR.
-           DISPLAY  "ษออออออออออออออป"
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
                                 LINE 04 POSITION 54
                                 CONTROL SG-CONTROL-STRING
                                 REVERSE.
-           DISPLAY  "บณ PROGRAMAS ณ บ" LINE 05 POSITION 54 REVERSE.
-           DISPLAY  "ฬออออออออออออออน" LINE 06 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 07 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 08 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 09 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 10 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 11 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 12 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 13 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 14 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณบ" LINE 15 POSITION 54 REVERSE.
-           DISPLAY  "บณ           ณ บ" LINE 16 POSITION 54 REVERSE.
-           DISPLAY  "ศออออออออออออออผ" LINE 17 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ PROGRAMAS ๏ฟฝ ๏ฟฝ" LINE 05 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน" LINE 06 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 07 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 08 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 09 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 10 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 11 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 12 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 13 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 14 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ๏ฟฝ" LINE 15 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ           ๏ฟฝ ๏ฟฝ" LINE 16 POSITION 54 REVERSE.
+           DISPLAY  "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ" LINE 17 POSITION 54 REVERSE.
 
        F-WINDOW-PRG.
       *
@@ -1016,35 +1024,35 @@
            MOVE SG-COLOR-TABLE(3) TO SG-FCOLOR.
            MOVE SG-COLOR-TABLE(1) TO SG-BCOLOR.
            DISPLAY
-           "ษออออออออออออออออออออออออออออออออออออออออออออออป"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
                                 LINE 04 POSITION 23
                                 CONTROL SG-CONTROL-STRING
                                 REVERSE
-           "บณ Name       Program  Usr PAMCRL 1234567890 ณ บ"
+           "๏ฟฝ๏ฟฝ Name       Program  Usr PAMCRL 1234567890 ๏ฟฝ ๏ฟฝ"
            LINE 05 POSITION 23 REVERSE
-           "ฬออออออออออออออออออออออออออออออออออออออออออออออน"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"
            LINE 06 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 07 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 08 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 09 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 10 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 11 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 12 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 13 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 14 POSITION 23 REVERSE
-           "บณ                                           ณบ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ๏ฟฝ"
            LINE 15 POSITION 23 REVERSE
-           "บณ                                           ณ บ"
+           "๏ฟฝ๏ฟฝ                                           ๏ฟฝ ๏ฟฝ"
            LINE 16 POSITION 23 REVERSE
-           "ศฯอออออออออออออออออออออออออออออออออออออออออออออผ"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"
            LINE 17 POSITION 23 REVERSE.
        F-WINDOW-PRG-MS.
       *

@@ -1,3 +1,11 @@
+      ******************************************************************
+      * This application was written by Juan Jose Torres
+      * and is protected under copyrigth and trademarks.
+      * Licensed under MIT to be public at github for demostration 
+      * purposes.
+      * Winner Financial (r) - 1997-2003                  *
+      
+      ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PROG010.
       ******************************************************************
@@ -65,12 +73,12 @@
 
        I-LABEL-ARCHIVOS.
                MOVE WIN-EMPRESA            TO  WK-COMPANIA
-               MOVE "น"                    TO  WK-RAYAS-U
-               MOVE "ฬ"                    TO  WK-RAYAS-P
-               MOVE "ถ"                    TO  WK-RAYA-U
-               MOVE "ว"                    TO  WK-RAYA-P.
+               MOVE "๏ฟฝ"                    TO  WK-RAYAS-U
+               MOVE "๏ฟฝ"                    TO  WK-RAYAS-P
+               MOVE "๏ฟฝ"                    TO  WK-RAYA-U
+               MOVE "๏ฟฝ"                    TO  WK-RAYA-P.
                MOVE 16                     TO  POS-DOWN.
-               MOVE "WINNER FINANCIALฉ      " TO WK-SISTEMA.
+               MOVE "WINNER FINANCIAL๏ฟฝ      " TO WK-SISTEMA.
                MOVE "PLAN UNICO DE CUENTAS"       TO TIT-APLICACION.
        F-LABEL-ARCHIVOS.
 
@@ -647,7 +655,7 @@
               SUBMAE = 0 AND AUXMAE = ZEROS
             IF IND-VAL-NIV < 1 AND W-OPCION = "A"
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
-             "Seคor usuario no existe NIVEL (1) inferior creado,DE <>"
+             "Se๏ฟฝor usuario no existe NIVEL (1) inferior creado,DE <>"
              LINE 25 POSITION 01 BEEP
              PERFORM ACEPTA-TRUCO UNTIL CUP
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
@@ -663,7 +671,7 @@
               SUBMAE = 0 AND AUXMAE = ZEROS
             IF IND-VAL-NIV < 2 AND W-OPCION = "A"
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
-             "Seคor usuario no existe NIVEL (2) inferior creado,DE <>"
+             "Se๏ฟฝor usuario no existe NIVEL (2) inferior creado,DE <>"
              LINE 25 POSITION 01 BEEP
              PERFORM ACEPTA-TRUCO UNTIL CUP
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
@@ -679,7 +687,7 @@
               SUBMAE > 0 AND AUXMAE = ZEROS
             IF IND-VAL-NIV < 3 AND W-OPCION = "A"
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
-             "Seคor usuario no existe NIVEL (3) inferior creado,DE <>"
+             "Se๏ฟฝor usuario no existe NIVEL (3) inferior creado,DE <>"
              LINE 25 POSITION 01 BEEP
              PERFORM ACEPTA-TRUCO UNTIL CUP
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
@@ -695,7 +703,7 @@
               SUBMAE > 0 AND AUX1 > 0 AND AUX2 = ZEROS
             IF IND-VAL-NIV < 4 AND W-OPCION = "A"
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
-             "Seคor usuario no existe NIVEL (4) inferior creado,DE <>"
+             "Se๏ฟฝor usuario no existe NIVEL (4) inferior creado,DE <>"
              LINE 25 POSITION 01 BEEP
              PERFORM ACEPTA-TRUCO UNTIL CUP
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
@@ -711,7 +719,7 @@
               SUBMAE > 0 AND AUX1 > 0 AND AUX2 > 0
             IF IND-VAL-NIV < 5 AND W-OPCION = "A"
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
-             "Seคor usuario no existe NIVEL (5) inferior creado,DE <>"
+             "Se๏ฟฝor usuario no existe NIVEL (5) inferior creado,DE <>"
              LINE 25 POSITION 01 BEEP
              PERFORM ACEPTA-TRUCO UNTIL CUP
              DISPLAY SPACES SIZE 80 LINE 25 POSITION 01
@@ -906,17 +914,17 @@
       *
        I-VENTANA-CTADEBCRE.
            DISPLAY
-           "ษออออออออออออออหออออออออออออออหออออออออออออออหออออออออออออป"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"
            LINE 10 POSITION 10 REVERSE
-           "บ Cuenta Prov. บ Cuenta Prov. บ % Aportes    บ % Prestac. บ"
+           "๏ฟฝ Cuenta Prov. ๏ฟฝ Cuenta Prov. ๏ฟฝ % Aportes    ๏ฟฝ % Prestac. ๏ฟฝ"
            LINE 11 POSITION 10 REVERSE
-           "บ   Debito     บ   Credito    บ Parafiscales บ  Sociales  บ"
+           "๏ฟฝ   Debito     ๏ฟฝ   Credito    ๏ฟฝ Parafiscales ๏ฟฝ  Sociales  ๏ฟฝ"
            LINE 12 POSITION 10 REVERSE
-           "ฬออออออออออออออฮออออออออออออออฮออออออออออออออฮออออออออออออน"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"
            LINE 13 POSITION 10 REVERSE
-           "บ              บ              บ              บ            บ"
+           "๏ฟฝ              ๏ฟฝ              ๏ฟฝ              ๏ฟฝ            ๏ฟฝ"
            LINE 14 POSITION 10 REVERSE
-           "ศออออออออออออออสออออออออออออออสออออออออออออออสออออออออออออผ"
+           "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"
            LINE 15 POSITION 10 REVERSE.
        F-VENTANA-CTADEBCRE. EXIT.
       *
@@ -1272,40 +1280,40 @@
        F-NEXISTE.
       *
        I-WINDOW-DATOS.
-           DISPLAY "ษอออออออออออออออออออออออออออออออออออออออออออออออออออ"
-      -    "ออออออออป"  LINE 06 POSITION 10.
-           DISPLAY "บ Codigo      :                                     "
-      -    "        บ"  LINE 09 POSITION 10.
-           DISPLAY "บ Descripcion :                                     "
-      -    "        บ"  LINE 08 POSITION 10.
-           DISPLAY "บ Encabezados :                                     "
-      -    "        บ"  LINE 09 POSITION 10.
-           DISPLAY "ฬอออออออออออออออออออออออออออออออออออออออออออออออออออ"
-      -    "ออออออออน"  LINE 10 POSITION 10.
-           DISPLAY "บ                       Datos  Generales            "
-      -    "        บ"  LINE 11 POSITION 10.
-           DISPLAY "ฬออออออออออออออออออออออออออออออออัออออออออออออออออออ"
-      -    "ออออออออน"  LINE 12 POSITION 10.
-           DISPLAY "บ                                ณ                  "
-      -    "        บ"  LINE 13 POSITION 10.
-           DISPLAY "บ Acum. Saldos x Terceros  :  _  ณ Saldos   Cartera "
-      -    " :  _   บ"  LINE 14 POSITION 10.
-           DISPLAY "บ Acum. Saldos x Fra       :  _  ณ Saldos   Bancos  "
-      -    " :  _   บ"  LINE 15 POSITION 10.
-           DISPLAY "บ Aplica a Provisiones     :  _  ณ Saldos   C.A.V.  "
-      -    " :  _   บ"  LINE 16 POSITION 10.
-           DISPLAY "บ Aplica ajustes-inflacion :     ณ Otros            "
-      -    " :  _   บ"  LINE 17 POSITION 10.
-           DISPLAY "บ                          :     ณ                  "
-      -    "        บ"  LINE 18 POSITION 10.
-           DISPLAY "บ                          :     ณ                  "
-      -    "        บ"  LINE 19 POSITION 10.
-           DISPLAY "บ Aplica Base Gravable     :  _  ณ Cuenta Perdida   "
-      -    " :  _   บ"  LINE 20 POSITION 10.
-           DISPLAY "บ %  Aplica Base Grav.     :  _  ณ Cuenta Utilidad  "
-      -    " :  _   บ"  LINE 21 POSITION 10.
-           DISPLAY "ศออออออออออออออออออออออออออออออออฯออออออออออออออออออ"
-      -    "ออออออออผ"  LINE 22 POSITION 10.
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"  LINE 06 POSITION 10.
+           DISPLAY "๏ฟฝ Codigo      :                                     "
+      -    "        ๏ฟฝ"  LINE 09 POSITION 10.
+           DISPLAY "๏ฟฝ Descripcion :                                     "
+      -    "        ๏ฟฝ"  LINE 08 POSITION 10.
+           DISPLAY "๏ฟฝ Encabezados :                                     "
+      -    "        ๏ฟฝ"  LINE 09 POSITION 10.
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"  LINE 10 POSITION 10.
+           DISPLAY "๏ฟฝ                       Datos  Generales            "
+      -    "        ๏ฟฝ"  LINE 11 POSITION 10.
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"  LINE 12 POSITION 10.
+           DISPLAY "๏ฟฝ                                ๏ฟฝ                  "
+      -    "        ๏ฟฝ"  LINE 13 POSITION 10.
+           DISPLAY "๏ฟฝ Acum. Saldos x Terceros  :  _  ๏ฟฝ Saldos   Cartera "
+      -    " :  _   ๏ฟฝ"  LINE 14 POSITION 10.
+           DISPLAY "๏ฟฝ Acum. Saldos x Fra       :  _  ๏ฟฝ Saldos   Bancos  "
+      -    " :  _   ๏ฟฝ"  LINE 15 POSITION 10.
+           DISPLAY "๏ฟฝ Aplica a Provisiones     :  _  ๏ฟฝ Saldos   C.A.V.  "
+      -    " :  _   ๏ฟฝ"  LINE 16 POSITION 10.
+           DISPLAY "๏ฟฝ Aplica ajustes-inflacion :     ๏ฟฝ Otros            "
+      -    " :  _   ๏ฟฝ"  LINE 17 POSITION 10.
+           DISPLAY "๏ฟฝ                          :     ๏ฟฝ                  "
+      -    "        ๏ฟฝ"  LINE 18 POSITION 10.
+           DISPLAY "๏ฟฝ                          :     ๏ฟฝ                  "
+      -    "        ๏ฟฝ"  LINE 19 POSITION 10.
+           DISPLAY "๏ฟฝ Aplica Base Gravable     :  _  ๏ฟฝ Cuenta Perdida   "
+      -    " :  _   ๏ฟฝ"  LINE 20 POSITION 10.
+           DISPLAY "๏ฟฝ %  Aplica Base Grav.     :  _  ๏ฟฝ Cuenta Utilidad  "
+      -    " :  _   ๏ฟฝ"  LINE 21 POSITION 10.
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"  LINE 22 POSITION 10.
            DISPLAY "*Acumuladores*"        LINE 13 POSITION 18.
            DISPLAY "*Saldos Gerencia*"     LINE 13 POSITION 47.
            DISPLAY " *Retefuente* "        LINE 19 POSITION 18.
@@ -1346,46 +1354,46 @@
            DISPLAY " " LINE 25 POSITION 80
            CONTROL SG-CONTROL-STRING
            MOVE "HIGH" TO SG-INTENSITY.
-           DISPLAY "ฬออออออออออหออออออออออออออออออออออออออออออออออออออหอ"
-      -    "หอหอหอหอหอหอหออหอหอหอหอหอออน"  LINE 04 POSITION 01
-           DISPLAY "บ CODIGO   บ                                      บN"
-      -    "บTบTบDบPบIบBบ %บCบBบCบAบP Uบ"  LINE 05 POSITION 01
-           DISPLAY "บ CUENTA   บ     NOMBRE DE CUENTA                 บI"
-      -    "บIบEบEบRบNบAบBSบAบCบAบNบE Tบ"  LINE 06 POSITION 01
-           DISPLAY "บ P.U.C.   บ                                      บV"
-      -    "บTบRบTบOบFบSบGBบRบOบVบXบR Iบ"  LINE 07 POSITION 01
-           DISPLAY "ฬออออออออออฮออออออออออออออออออออออออออออออออออออออฮอ"
-      -    "ฮอฮอฮอฮอฮอฮอฮออฮอฮอฮอฮอฮอออน"  LINE 08 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 09 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 10 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 11 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 12 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 13 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 14 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 15 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 16 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 17 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 18 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 19 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 20 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 21 POSITION 01
-           DISPLAY "บ          บ                                      บ "
-      -    "บ บ บ บ บ บ บ  บ บ บ บ บ   บ"  LINE 22 POSITION 01
-           DISPLAY "ศออออออออออสออออออออออออออออออออออออออออออออออออออสอ"
-      -    "สอสอสอสอสอสอสออสอสอสอสอสอออผ"  LINE 23 POSITION 01.
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"  LINE 04 POSITION 01
+           DISPLAY "๏ฟฝ CODIGO   ๏ฟฝ                                      ๏ฟฝN"
+      -    "๏ฟฝT๏ฟฝT๏ฟฝD๏ฟฝP๏ฟฝI๏ฟฝB๏ฟฝ %๏ฟฝC๏ฟฝB๏ฟฝC๏ฟฝA๏ฟฝP U๏ฟฝ"  LINE 05 POSITION 01
+           DISPLAY "๏ฟฝ CUENTA   ๏ฟฝ     NOMBRE DE CUENTA                 ๏ฟฝI"
+      -    "๏ฟฝI๏ฟฝE๏ฟฝE๏ฟฝR๏ฟฝN๏ฟฝA๏ฟฝBS๏ฟฝA๏ฟฝC๏ฟฝA๏ฟฝN๏ฟฝE T๏ฟฝ"  LINE 06 POSITION 01
+           DISPLAY "๏ฟฝ P.U.C.   ๏ฟฝ                                      ๏ฟฝV"
+      -    "๏ฟฝT๏ฟฝR๏ฟฝT๏ฟฝO๏ฟฝF๏ฟฝS๏ฟฝGB๏ฟฝR๏ฟฝO๏ฟฝV๏ฟฝX๏ฟฝR I๏ฟฝ"  LINE 07 POSITION 01
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"  LINE 08 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 09 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 10 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 11 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 12 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 13 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 14 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 15 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 16 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 17 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 18 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 19 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 20 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 21 POSITION 01
+           DISPLAY "๏ฟฝ          ๏ฟฝ                                      ๏ฟฝ "
+      -    "๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ  ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ ๏ฟฝ   ๏ฟฝ"  LINE 22 POSITION 01
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ"
+      -    "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"  LINE 23 POSITION 01.
        F-VENTANA-CONCACTA.
 
        I-BLANQUEA.
@@ -1432,7 +1440,7 @@
            MOVE SG-COLOR-TABLE(7) TO SG-BCOLOR
            DISPLAY " " LINE 25 POSITION 79 CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [ G ]  Grabar Registro     [  ]  Continua        บ"
+           "๏ฟฝ       [ G ]  Grabar Registro     [  ]  Continua        ๏ฟฝ"
                                             LINE 25 POSITION 10 REVERSE.
            PERFORM ACEPTA-TRUCO.
            IF W-TRUCO = "G"
@@ -1446,7 +1454,7 @@
            MOVE SG-COLOR-TABLE(7) TO SG-BCOLOR
            DISPLAY " " LINE 25 POSITION 79 CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [ G ]  Grabar Registro     [  ]  Continua        บ"
+           "๏ฟฝ       [ G ]  Grabar Registro     [  ]  Continua        ๏ฟฝ"
                                             LINE 25 POSITION 10 REVERSE.
            PERFORM ACEPTA-TRUCO.
            IF W-TRUCO = "G"
@@ -1460,7 +1468,7 @@
            MOVE SG-COLOR-TABLE(7) TO SG-BCOLOR
            DISPLAY " " LINE 25 POSITION 79 CONTROL SG-CONTROL-STRING
            DISPLAY
-           "บ       [HOME] BORRA  REGISTRO     [  ]  CONTINUA        บ"
+           "๏ฟฝ       [HOME] BORRA  REGISTRO     [  ]  CONTINUA        ๏ฟฝ"
                                             LINE 25 POSITION 10 REVERSE.
            PERFORM ACEPTA-TRUCO.
            IF HOME
@@ -1472,31 +1480,31 @@
            MOVE "HIGH" TO SG-INTENSITY
            MOVE SG-COLOR-TABLE(1) TO SG-FCOLOR
            MOVE SG-COLOR-TABLE(7) TO SG-BCOLOR
-           DISPLAY "ษออออออออออออออออออออออออป"      LINE 10 POSITION 23
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอป"      LINE 10 POSITION 23
                                        CONTROL SG-CONTROL-STRING REVERSE
-           DISPLAY "บ       Grupos           บ"      LINE 11 POSITION 23
+           DISPLAY "๏ฟฝ       Grupos           ๏ฟฝ"      LINE 11 POSITION 23
                                                                  REVERSE
-           DISPLAY "ฬออออออออออออออออออออออออน"      LINE 12 POSITION 23
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน"      LINE 12 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ1 Activo              บ"      LINE 13 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ1 Activo              ๏ฟฝ"      LINE 13 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ2 Pasivo              บ"      LINE 14 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ2 Pasivo              ๏ฟฝ"      LINE 14 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ3 Patrimonio          บ"      LINE 15 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ3 Patrimonio          ๏ฟฝ"      LINE 15 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ4 Ingresos            บ"      LINE 16 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ4 Ingresos            ๏ฟฝ"      LINE 16 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ5 Gastos              บ"      LINE 17 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ5 Gastos              ๏ฟฝ"      LINE 17 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ6 Costos de ventas    บ"      LINE 18 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ6 Costos de ventas    ๏ฟฝ"      LINE 18 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ7 Costos Servicios    บ"      LINE 19 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ7 Costos Servicios    ๏ฟฝ"      LINE 19 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ8 Cuentas de Orden    บ"      LINE 20 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ8 Cuentas de Orden    ๏ฟฝ"      LINE 20 POSITION 23
                                                                  REVERSE
-           DISPLAY "บ ณ9 Ctas orden x contra บ"      LINE 21 POSITION 23
+           DISPLAY "๏ฟฝ ๏ฟฝ9 Ctas orden x contra ๏ฟฝ"      LINE 21 POSITION 23
                                                                  REVERSE
-           DISPLAY "ศออออออออออออออออออออออออผ"     LINE 22 POSITION 23
+           DISPLAY "๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอผ"     LINE 22 POSITION 23
                                                                 REVERSE.
        F-GRUPO-WINDOW.
       *
